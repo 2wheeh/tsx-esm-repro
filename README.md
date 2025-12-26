@@ -2,6 +2,8 @@
 
 This is a minimal repro for an issue with `tsx` loading ESM modules without `"type": "module"` in their `package.json`.
 
+https://github.com/privatenumber/tsx/issues/761
+
 ## Reproduction Steps
 
 1. Run `pnpm install` to set up the project.

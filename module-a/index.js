@@ -1,1 +1,1 @@
-export * from './inner.js';
+export const hello = () => 'hello world from esm';

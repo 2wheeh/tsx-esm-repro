@@ -1,8 +1,6 @@
 ## Description
 
-This is a minimal repro for an issue with `tsx` loading re-exported ESM modules.
-
-It happens starting from `tsx` version 4.20.0.
+This is a minimal repro for an issue with `tsx` loading ESM modules without `"type": "module"` in their `package.json`.
 
 ## Reproduction Steps
 

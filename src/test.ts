@@ -1,4 +1,4 @@
 // @ts-nocheck
-import { reexported } from 'module-a';
+import { hello } from 'module-a';
 
-console.log(reexported());
+console.log(hello());
